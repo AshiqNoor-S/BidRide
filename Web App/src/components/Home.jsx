@@ -1,8 +1,18 @@
 import React from "react";
+import Hero from "./Hero";
+import DownloadApp from "./DownloadApp";
+// import Features from "./Features";
+import BookARide from "./BookARide";
 
 function Home(){
 	return (
-		<h1>Hello from Home.jsx</h1>
+		<div id="home-page">
+			<Hero />
+			{/* <Features /> */}
+			<BookARide />
+			<DownloadApp />
+		</div>
+		
 	);
 }
 
