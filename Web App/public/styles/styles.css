@@ -1,7 +1,7 @@
 * {
 	margin: 0;
-	padding: 1vh 1vw;
-	background-color: #fffdd0;
+	/* padding: 1vh 1vw; */
+	/* background-color: #fffdd0; */
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,6 +21,7 @@ a {
 
 nav {
 	height: 6vh;
+	padding: 4vh 8vw 4vh;
 	width: 98%;
 	border-bottom: 1.5px solid #d2d2d2;
 }
@@ -63,13 +64,20 @@ nav {
 }
 
 #nav-book-a-ride {
-	margin: 0 0.2vw;
+	margin: 0 1.6vw;
 }
 
 #nav-login {
 	margin-left: 7vw;
 }
 
+.book-a-ride{
+	padding: 3vw 5vw;
+}
+
+.download-app{
+	padding: 2vw 5vw;
+}
 
 
 /* Home */
@@ -82,7 +90,7 @@ nav {
 
 .hero-section {
 	margin: 0% 0 0;
-	padding: 1% 0%;
+	padding: 9vh 9vw 4vh;
 	/* height: 90%; */
 	border-bottom: 1.5px solid #d2d2d2;
 }
@@ -148,6 +156,10 @@ nav {
 }
 
 /* Features */
+
+#features{
+	padding-top: 16vh;
+}
 
 .features-clear {
 	clear: left;
