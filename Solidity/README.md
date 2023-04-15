@@ -38,13 +38,13 @@ require("@nomiclabs/hardhat-ethers");
 module.exports = {
   networks: {
     goerli: {
-      url: RPC_URL,
+      url: [RPC_URL],
       accounts: ["PRIVATE_KEY"],
     },
   },
   etherscan: {
         apiKey: {
-          goerli: ETHERSCAN_API_KEY
+          goerli: [ETHERSCAN_API_KEY],
         }
       },
   solidity: {
