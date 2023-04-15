@@ -44,6 +44,8 @@ return (
 								<a href="/"><img src="images/logo.png" class="img-fluid" alt="logo" /></a>
 							</div>
 							<div className="footer-social-icon">
+								<span>Follow us</span>
+								<a href="#"><i class="fab fa-linkedin-in fa-spin fa-lg"></i></a>
 								{/* <span>Follow us</span> */}
 								<a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
 								<a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
