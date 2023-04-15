@@ -11,8 +11,8 @@ return (
 						<div className="single-cta">
 							<i className="fas fa-map-marker-alt"></i>
 							<div className="cta-text">
-								<h4>Find us</h4>
-								<span>Chennai , Tamil Nadu</span>
+								<h4>Find Us</h4>
+								<span>Chennai, Tamil Nadu</span>
 							</div>
 						</div>
 					</div>
@@ -20,8 +20,8 @@ return (
 						<div className="single-cta">
 							<i className="fas fa-phone"></i>
 							<div className="cta-text">
-								<h4>Call us</h4>
-								<span>+91xxxxxxxxxx</span>
+								<h4>Call Us</h4>
+								<span>+91 xxxxxxxxxx</span>
 							</div>
 						</div>
 					</div>
@@ -29,7 +29,7 @@ return (
 						<div className="single-cta">
 							<i className="far fa-envelope-open"></i>
 							<div className="cta-text">
-								<h4>Mail us</h4>
+								<h4>Mail Us</h4>
 								<span>teampb729@gmail.com</span>
 							</div>
 						</div>
@@ -41,7 +41,7 @@ return (
 					<div className="col-xl-4 col-lg-4 mb-50">
 						<div className="footer-widget">
 							<div className="footer-logo">
-								<a href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo" /></a>
+								<a href="/"><img src="images/logo.png" class="img-fluid" alt="logo" /></a>
 							</div>
 							<div className="footer-social-icon">
 								<span>Follow us</span>

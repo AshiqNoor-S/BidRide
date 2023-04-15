@@ -5,7 +5,7 @@ function DownloadApp(){
 		<div class="download-app">
 			<h1>Download the App for Better Experience</h1>
 			
-			<img src="images/download-app-image.jpg" id="download-app-img" />
+			<img src="images/download-app-image.png" id="download-app-img" />
 			
 			<a className="download-button"  href="#">
 				<img src="images/download-app-store.png" id="download-button-1" />

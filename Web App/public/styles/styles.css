@@ -25,9 +25,10 @@ a {
 /* NavBar */
 
 nav {
+	background-color: #fffdd0;
 	height: 6vh;
 	padding: 4vh 8vw 5vh;
-	width: 98%;
+	width: 100%;
 	border-bottom: 1.5px solid #d2d2d2;
 }
 
@@ -90,6 +91,7 @@ nav {
 	padding: 8vh 9vw 3vh;
 	/* height: 90%; */
 	border-bottom: 1.5px solid #d2d2d2;
+	background-color: #fffdd0;
 }
 
 .hero-text {
@@ -102,19 +104,19 @@ nav {
 	font-size: 2.8rem;
 	font-weight: 600;
 	/* width: 60%; */
-	overflow: auto;
+	overflow: none;
 }
 
 #sub-caption-1 {
 	margin-top: 2rem;
 	/* width: 60%; */
-	overflow: auto;
+	overflow: none;
 }
 
 #sub-caption-2 {
 	margin-top: 1rem;
 	/* width: 60%; */
-	overflow: auto;
+	overflow: none;
 }
 
 .color-yellow {
@@ -177,7 +179,7 @@ nav {
 	justify-content: space-between;
 	flex-direction: row;
 	align-items: stretch;
-	width: 95%;
+	width: 100%;
 	/* margin-left: 2.8%;
 	margin-right: 2.8%; */
 	gap: 24px;
@@ -205,13 +207,13 @@ nav {
 }
 
 .box-image {
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 	object-position: 50% 20%;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	margin: auto;
-	animation: magnify-in-out 1s linear 0s infinite alternate;
+	/* animation: magnify-in-out 1s linear 0s infinite alternate; */
 	/* border: 1px solid blue; */
 }
 
@@ -272,9 +274,10 @@ nav {
 
 /* Book A Ride Section */
 
-.book-a-ride{
+#book-a-ride{
 	/* padding: 3vw 5vw; */
 	padding: 8vh 9vw 3vh;
+	background-color: #fffdd0;
 }
 
 
@@ -283,6 +286,7 @@ nav {
 .download-app{
 	/* padding: 2vw 5vw; */
 	padding: 8vh 9vw 3vh;
+	background-color: #fffdd0;
 }
 
 #download-app-img {
@@ -296,14 +300,14 @@ nav {
 #download-button-1 {
 	/* float: right; */
 	margin: 1vh 3vw;
-	width: 16vw;
-	height: 12vh;
+	width: 17vw;
+	height: 13vh;
 }
 
 #download-button-2 {
 	/* float: right; */
 	margin: 1vh 1vw;
-	width: 16vw;
+	width: 15vw;
 	height: 14vh;
 }
 
