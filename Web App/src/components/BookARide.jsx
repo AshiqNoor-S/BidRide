@@ -8,7 +8,7 @@ function BookARide(){
 				<input type="text" className="pickup-location-input" name="pickupLocation" placeholder="Enter Pickup Point" />
 				<input type="text" className="drop-location-input" name="dropLocation" placeholder="Enter Drop Point" />
 			</form>
-			<div id="map"></div>
+			<div id="mapid"></div>
 		</div>
 		
 	);

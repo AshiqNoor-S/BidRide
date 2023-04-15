@@ -23,14 +23,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    
+    <style>
+      #mapid {
+          margin:3%;
+          height: 50vh;
+          width:70vw;
+          margin-left: auto;
+          margin-right: auto
+      }
+  
+      .heading{
+          text-align: center;
+          margin-top: 3%;
+          margin-bottom: 3%;
+          font-size: 3rem;
+          font-family: 'Lora', serif;
+          font-weight: 600;
+      }
+    </style>
 
   </head>
   <body>
     <div id="root"></div>
-    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-      ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
-      <script>
+    <!-- <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+      ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script> -->
+      <!-- <script>
         async function initMap() {
   // The location of Uluru
   const position = { lat: -25.344, lng: 131.031 };
@@ -55,7 +72,28 @@
 }
 
 initMap();
-      </script>
+      </script> -->
+
+    <script>
+      var latitude = 12.8406;
+      var longitude = 80.1534;
+      var mymap = L.map('mapid').setView([latitude, longitude], 13);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',maxZoom: 18,}).addTo(mymap);
+      var marker = L.marker([latitude, longitude]).addTo(mymap);
+    </script>
+
     <script src="../src/index.js" type="text/jsx"></script>
+
+    <script src="https://kit.fontawesome.com/8c4e0c6018.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">window.$crisp=[];
+        window.CRISP_WEBSITE_ID="3b333d61-dba4-47fd-8b93-c0d45e7e0bdf";
+        (function()
+        {d=document;
+        s=d.createElement("script");
+        s.src="https://client.crisp.chat/l.js";
+        s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js'></script>
   </body>
 </html>
