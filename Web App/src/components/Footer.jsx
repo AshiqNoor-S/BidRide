@@ -44,7 +44,7 @@ return (
 								<a href="/"><img src="images/logo.png" class="img-fluid" alt="logo" /></a>
 							</div>
 							<div className="footer-social-icon">
-								<span>Follow us</span>
+								{/* <span>Follow us</span> */}
 								<a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
 								<a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
 								<a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
@@ -59,17 +59,17 @@ return (
 							<ul className="foot-list">
 								<li><a href="#">Home</a></li>
 								<li><a href="#">Our Services</a></li>
-								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Contact Us</a></li>
 							</ul>
 						</div>
 					</div>
 					<div className="col-xl-4 col-lg-4 col-md-6 mb-50">
 						<div className="footer-widget">
 							<div className="footer-widget-heading">
-								<h3>Reach out to us</h3>
+								<h3>Reach Out To Us</h3>
 							</div>
 							<div className="footer-text mb-25">
-								<p>If you have any queries , kindly fill the form below.</p>
+								{/* <p>If you have any queries, kindly fill the form below.</p> */}
 							</div>
 							<div className="subscribe-form">
 								<form action="#">
@@ -85,9 +85,9 @@ return (
 		<div className="copyright-area">
 			<div className="container">
 				<div className="row">
-					<div className="col-xl-6 col-lg-6 text-center text-lg-left">
+					<div className="col-xl-6 col-lg-6 text-lg-left">{/*  text-center */}
 						<div className="copyright-text">
-							<p>Copyright &copy; 2023, All Right Reserved T - 7 2 9</p>
+							<p>Copyright &copy; 2023. All Rights Reserved T - 7 2 9</p>
 						</div>
 					</div>
 				</div>
