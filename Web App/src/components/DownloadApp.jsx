@@ -2,7 +2,7 @@ import React from "react";
 
 function DownloadApp(){
 	return (
-		<div class="download-app">
+		<div id="download-app">
 			<h1>Download the App for Better Experience</h1>
 			
 			<img src="images/download-app-image.png" id="download-app-img" />

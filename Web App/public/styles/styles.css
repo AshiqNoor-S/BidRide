@@ -52,7 +52,7 @@ nav {
 .navigation-list {
 	list-style-type: none;
 	font-weight: 500;
-	margin-left: 56vw;
+	margin-left: 47vw;
 }
 
 .navigation-item {
@@ -66,15 +66,15 @@ nav {
 }
 
 #nav-about-us {
-	margin: 0 0.2vw;
+	margin: 0 1.2vw;
 }
 
 #nav-book-a-ride {
-	margin: 0 1.6vw;
+	margin: 0 1.2vw;
 }
 
 #nav-login {
-	margin-left: 7vw;
+	margin-left: 5vw;
 }
 
 
@@ -310,7 +310,7 @@ nav {
 
 /* Download App Section */
 
-.download-app{
+#download-app{
 	/* padding: 2vw 5vw; */
 	padding: 8vh 9vw 3vh;
 	background-color: #fffdd0;
