@@ -12,7 +12,7 @@ function Hero(){
 			<div id="features" class="wrap">
 				<div class="box">
 					<div class="box-top">
-						<img class="box-image" src="./images/hero-img.png" alt="Ambulance" />
+						<img class="box-image" src="./images/choose-your-ride.png" alt="choose-your-ride" />
 							<div class="title-flex">
 								<h3 class="box-title">Choose Your Ride</h3>
 							</div>
@@ -21,7 +21,7 @@ function Hero(){
 
 				<div class="box">
 					<div class="box-top box-2">
-						<img class="box-image" src="./images/hero-img.png" alt="Health Vitals" />
+						<img class="box-image" src="./images/choose-your-fare.png" alt="chooose-your-fare" />
 							<div class="title-flex">
 								<h3 class="box-title">Choose Your Fare</h3>
 							</div>
@@ -30,7 +30,7 @@ function Hero(){
 
 				<div class="box">
 					<div class="box-top">
-						<img class="box-image" src="./images/hero-img.png" alt="Doctor" width="10px" />
+						<img class="box-image" src="./images/24-7-image.png" alt="24-7" width="10px" />
 							<div class="title-flex">
 								<h3 class="box-title">Book Anytime, Anywhere</h3>
 							</div>

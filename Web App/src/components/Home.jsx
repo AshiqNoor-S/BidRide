@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import DownloadApp from "./DownloadApp";
 // import Features from "./Features";
 import BookARide from "./BookARide";
+import AboutUs from "./AboutUs";
 
 function Home(){
 	return (
@@ -10,6 +11,7 @@ function Home(){
 			<Hero />
 			{/* <Features /> */}
 			<BookARide />
+			<AboutUs />
 			<DownloadApp />
 		</div>
 		
