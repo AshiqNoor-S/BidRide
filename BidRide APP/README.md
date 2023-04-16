@@ -1,16 +1,27 @@
-# my_portfolio
+# MOBILE APP :
+BidRide is a taxi booking app built with Flutter that allows users to select their preferred ride type and choose the fare they prefer based on bids submitted by drivers. With BidRide, users have the flexibility to pick the best ride and fare that fits their needs.
 
-A new Flutter project.
+Features-
 
-## Getting Started
+   -Ride Selection: Users can choose from a variety of ride types, including economy, premium, and luxury, based on their needs and preferences.
+   
+   -Bid Selection: Drivers can submit their preferred fares, and users can choose the best option for them.
+   
+   -Live Tracking: Users can track their ride in real-time, ensuring that they always know where their driver is and when they will arrive.
+   
+   -Payment Integration: BidRide has integrated with various payment gateways, making it easy for users to pay for their rides securely.
+   
+   -Ride History: Users can view their ride history, including details such as the driver's name, ride duration, and fare paid.
+   
+   -Ride Sharing: Users can choose to share their ride with other passengers and split the fare.
+   
+   -Driver Ratings: Users can rate their drivers based on their ride experience, providing valuable feedback to improve future rides.
 
-This project is a starting point for a Flutter application.
+Technology Stack-
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+BidRide is built using the following technologies
+   Frontend: Flutter, Dart
+    
+   Backend: Firebase, Firestore (future implementation)
+    
+   Third-party APIs: Google Maps, Google Pay (future implementation)
