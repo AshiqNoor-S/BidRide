@@ -57,7 +57,7 @@ module.exports = {
 Run the deployment script using the following command
 
 ```bash
-npx hardhat run --network goerli Deploy/00-Deploy-uber.js
+npx hardhat run --network goerli Deploy/00-Deploy.js
 ```
 
 ## Testing
