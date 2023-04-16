@@ -1,3 +1,4 @@
+# BidRide App
 BidRide is a taxi booking app built with Flutter that allows users to select their preferred ride type and choose the fare they prefer based on bids submitted by drivers. With BidRide, users have the flexibility to pick the best ride and fare that fits their needs.
 
 Features-
