@@ -24,7 +24,9 @@ The BidRide application is built using React and React Router for the front-end.
 
 # MOBILE APP :
 BidRide is a taxi booking app built with Flutter that allows users to select their preferred ride type and choose the fare they prefer based on bids submitted by drivers. With BidRide, users have the flexibility to pick the best ride and fare that fits their needs.
+
 Features-
+
    -Ride Selection: Users can choose from a variety of ride types, including economy, premium, and luxury, based on their needs and preferences.
    
    -Bid Selection: Drivers can submit their preferred fares, and users can choose the best option for them.
