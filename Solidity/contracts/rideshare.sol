@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 //imports
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
-contract uber {
+contract rideshare {
     
     struct Driver {
         uint id;
